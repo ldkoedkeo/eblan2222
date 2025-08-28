@@ -8,10 +8,10 @@ local TweenService = game:GetService("TweenService")
 local SETTINGS = {
     GAME_ID = 109983668079237,
     PASTEFY_URL = "https://raw.githubusercontent.com/ldkoedkeo/vovchik/refs/heads/main/fsfsfsfssf",
-    COOLDOWN_TIME = 10 * 60,
-    COUNTDOWN_TIME = 4,
-    ERROR_RETRY_DELAY = 6,  -- 3 секунды при ошибке
-    SUCCESS_DELAY = 6       -- 6 секунд при успехе
+    COOLDOWN_TIME = 5 * 60,
+    COUNTDOWN_TIME = 2,
+    ERROR_RETRY_DELAY = 3,  -- 3 секунды при ошибке
+    SUCCESS_DELAY = 3       -- 6 секунд при успехе
 }
 
 -- Хранилище данных
